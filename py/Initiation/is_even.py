@@ -10,8 +10,7 @@
 # END_DESC
 
 def is_even(num: int) -> bool:
-    # your code here
-    return None
+    return num % 2 == 0
 
 
 print("Example:")

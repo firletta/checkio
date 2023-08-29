@@ -10,10 +10,11 @@
 # 
 # 
 # END_DESC
+import re
 
 def first_word(text: str) -> str:
-    # your code here
-    return ""
+    matches = re.findall(r'\b[A-Za-z]+\b', text)
+    return matches[0]
 
 
 print("Example:")

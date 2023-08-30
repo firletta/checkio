@@ -8,10 +8,8 @@
 # 
 # 
 # END_DESC
-
 def most_frequent(data: list[str]) -> str:
-    # your code here
-    return ""
+    return max(data, key=data.count)
 
 
 print("Example:")

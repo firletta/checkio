@@ -12,9 +12,7 @@
 # END_DESC
 
 def sum_numbers(text: str) -> int:
-    # your code here
-    return 0
-
+    return sum(int(i) for i in text.split() if i.isdigit())
 
 print("Example:")
 print(sum_numbers("hi"))

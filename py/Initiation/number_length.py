@@ -10,8 +10,7 @@
 # END_DESC
 
 def number_length(value: int) -> int:
-    # your code here
-    return 0
+    return len(str(value))
 
 
 print("Example:")

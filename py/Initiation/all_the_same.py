@@ -17,8 +17,10 @@ from typing import List, Any
 
 
 def all_the_same(elements: List[Any]) -> bool:
-    # your code here
-    return True
+    return len(set(elements)) <= 1
+
+# def all_the_same(elements):
+#    return elements == elements[1:] + elements[:1]
 
 
 print("Example:")

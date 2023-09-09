@@ -10,8 +10,7 @@
 # END_DESC
 
 def end_zeros(a: int) -> int:
-    # your code here
-    return 0
+    return len(str(a)) - len(str(a).rstrip('0'))
 
 
 print("Example:")

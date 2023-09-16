@@ -1,12 +1,12 @@
 #!/usr/bin/env checkio --domain=py run easy-unpack
 
-# Your mission here is to create a function that gets atupleand returns atuplewith only 3 elements - the first, third and second element from the last for the giventuple.
+# Your mission here is to create a function that gets a tuple and returns a tuple with only 3 elements - the first, third and second element from the last for the giventuple.
 # 
 # 
 # 
-# One important thing worth pointing out is that you need to use index in order to extract elements from thetuple. Pay attention, index counting starts from 0, not from 1. Which means that if you need to get the first element from thetupleelements, you should doelements[0], and the second element iselements[1].
+# One important thing worth pointing out is that you need to use index in order to extract elements from the tuple. Pay attention, index counting starts from 0, not from 1. Which means that if you need to get the first element from the tuple elements, you should do elements[0], and the second element is elements[1].
 # 
-# Input:Atuple, at least 3 elements long.
+# Input:A tuple, at least 3 elements long.
 # 
 # Output:Atuple.
 # 
@@ -14,8 +14,7 @@
 # END_DESC
 
 def easy_unpack(elements: tuple) -> tuple:
-    # your code here
-    return ()
+    return (elements[0], elements[2], elements[-2])
 
 
 print("Example:")

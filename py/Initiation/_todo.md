@@ -9,7 +9,7 @@
 - [x] the_most_frequent.py
 - [x] sum_numbers.py
 - [x] end_zeros.py
-- [ ] all_the_same.py
+- [x] all_the_same.py
 - [ ] easy_unpack.py
 - [ ] nearest_value.py
 - [ ] count_digits.py
